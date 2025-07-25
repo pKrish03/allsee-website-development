@@ -193,4 +193,8 @@ export const Divider = styled.div`
   background-color: #dbdbdb;
   width: 100%;
   margin: 10px 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 5px 0;
+  }
 `;
